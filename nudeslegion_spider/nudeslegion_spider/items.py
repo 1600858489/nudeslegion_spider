@@ -9,4 +9,4 @@ import scrapy
 class NudeslegionSpiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    start_urls = [""]
